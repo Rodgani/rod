@@ -255,6 +255,7 @@ font-family: 'Times New Roman', Times, serif;
   box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
   padding-left: 50px;
   font-family: 'Times New Roman', Times, serif;
+  height: 400px;
 }
 .item-row-about .item-column .back-end h2{
   color: rgb(80, 15, 15);
@@ -275,6 +276,7 @@ font-family: 'Times New Roman', Times, serif;
   text-align: center;
   -ms-transform: scaleY(1.1); /* IE 9 */
   transform: scaleY(1.1);
+  height: 400px;
 }
 
 .profile h2{
@@ -360,7 +362,6 @@ font-family: 'Times New Roman', Times, serif;
   cursor: pointer;
 }
 /* main */
-
 @media(max-width:576px){
   .foot-profile-text h2{
   font-size: 25px;
@@ -599,6 +600,12 @@ font-family: 'Times New Roman', Times, serif;
   .profile p{
     font-size: 17px;
     padding: 3px;
+  }
+  .profile{
+    height: 250px !important;
+  }
+  .back-end{
+    height: 250px !important;
   }
 }
 
