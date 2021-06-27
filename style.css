@@ -225,6 +225,10 @@ font-family: 'Times New Roman', Times, serif;
   font-weight: 400 !important;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 25px;
+  margin-right: 25px;
+  text-align: justify;
+  text-justify: distribute;
+  text-align-last: left;
 }
 
 /* Projects Div */
@@ -273,7 +277,6 @@ font-family: 'Times New Roman', Times, serif;
   background: rgb(255, 255, 255);
   -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
   box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-  text-align: center;
   -ms-transform: scaleY(1.1); /* IE 9 */
   transform: scaleY(1.1);
   height: 400px;
@@ -283,12 +286,17 @@ font-family: 'Times New Roman', Times, serif;
   color: rgb(80, 15, 15);
   font-size: 40px;
   font-weight: 400;
+  text-align: center;
 }
-.profile p{
+.profile ul{
+  padding: 0px !important;
+}
+.profile ul li{
   color: rgb(80, 15, 15);
   font-size: 25px;
   font-weight: 400;
-  padding: 2px;
+  text-align: center;
+  list-style: none;
 }
 /* About Div */
 .projects .item-row-footer {
@@ -597,9 +605,8 @@ font-family: 'Times New Roman', Times, serif;
   .profile h2{
     font-size: 25px;
   }
-  .profile p{
+  .profile ul li{
     font-size: 17px;
-    padding: 3px;
   }
   .profile{
     height: 250px !important;
